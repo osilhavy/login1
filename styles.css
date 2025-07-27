@@ -94,18 +94,3 @@ body {
 .input-box input::placeholder {
     color: #fff;
 }
-@media (max-width: 600px) {
-  .wrapper {
-    width: 95vw;
-    padding: 20px 5vw;
-    border-radius: 10px;
-  }
-  .wrapper .loginname {
-    font-size: 20px;
-  }
-  .wrapper .input-box input,
-  .wrapper .login button {
-    height: 36px;
-    font-size: 16px;
-  }
-}
