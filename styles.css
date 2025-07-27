@@ -1,0 +1,96 @@
+:root {
+    color: aliceblue;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vw;
+    background-image: url(abstract\ checkbox\ de.png);
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    height: fit-content;
+    width: 300px;
+    background: transparent;
+    border: 1px solid white;  
+    padding: 30px 20px;    
+    border-radius: 20px;     
+    backdrop-filter: blur(20px);  
+}
+.wrapper .loginname {
+    text-align: center;
+    font-size: 25px;
+}
+.wrapper .input-box {
+    width: 100%;
+    height: 100%;
+    margin: 15px 0;
+    
+}
+.wrapper .input-box input {
+    box-sizing: border-box; /* přidá padding a border do šířky */
+    width: 100%;
+    height: 40px; /* nastav rozumnou výšku, např. 40px */
+    border-radius: 40px;
+    padding: 0 15px;
+    border: none;
+    background: transparent;
+    border: 1px solid wheat;
+    color: white;
+    outline: none;
+}
+.wrapper .checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .checkbox a {
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper .checkbox a:hover {
+    text-decoration: underline;
+}
+.wrapper .login {
+    width: 100%;
+    height: 100%;
+    margin: 15px 0;
+}
+.wrapper .login button {
+    box-sizing: border-box; /* přidá padding a border do šířky */
+    width: 100%;
+    height: 40px; /* nastav rozumnou výšku, např. 40px */
+    border-radius: 40px;
+    padding: 0 15px;
+    border: none;
+    color: black;
+    outline: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+.wrapper .login button:hover {
+    background: rgba(255,255,255,0.15);
+    border: 1px solid wheat;
+    color: #fff;
+    cursor: pointer;
+
+}
+.wrapper .posledni {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 5px;
+}
+.wrapper .posledni a {
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper .posledni a:hover {
+    text-decoration: underline;
+}
+.input-box input::placeholder {
+    color: #fff;
+}
